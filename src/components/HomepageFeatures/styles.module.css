@@ -1,0 +1,22 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.featureImage {
+  width: 200px;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+}
+
+.featureDesc {
+  opacity: 0.75;
+}
+
+.featureContainer:hover .featureDesc {
+  opacity: 1;
+}
