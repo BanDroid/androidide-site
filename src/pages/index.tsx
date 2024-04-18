@@ -7,7 +7,6 @@ import Heading from "@theme/Heading";
 
 import styles from "./index.module.css";
 import AndroidIDELogo from "@site/static/img/androidide.svg";
-import Head from "@docusaurus/Head";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();

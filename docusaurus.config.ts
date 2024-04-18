@@ -74,7 +74,10 @@ const config: Config = {
     // Replace with your project's social card
     defaultMode: "dark",
     image: "img/open-source.png",
-    metadata: [{ name: "twitter:card", content: "img/open-source.png" }],
+    metadata: [
+      { name: "twitter:card", content: "img/open-source.png" },
+      { property: "og:image", content: "img/open-source.png" },
+    ],
     navbar: {
       title: app.name,
       logo: {
