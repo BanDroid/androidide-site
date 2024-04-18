@@ -3,7 +3,7 @@ sidebar_position: 2
 sidebar_label: Getting Started
 ---
 
-# Getting started with AndroidIDE
+# Getting Started with AndroidIDE
 
 This tutorial walks through the process of installing the build tools like
 JDK, Android SDK, etc. in AndroidIDE.

@@ -64,11 +64,17 @@ const config: Config = {
       } satisfies Preset.Options,
     ],
   ],
-
+  stylesheets: [
+    {
+      href: "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
+      type: "text/css",
+    },
+  ],
   themeConfig: {
     // Replace with your project's social card
     defaultMode: "dark",
-    image: "img/androidide.png",
+    image: "img/open-source.png",
+    metadata: [{ name: "twitter:card", content: "img/open-source.png" }],
     navbar: {
       title: app.name,
       logo: {
@@ -165,12 +171,6 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
-  stylesheets: [
-    {
-      href: "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
-      type: "text/css",
-    },
-  ],
 };
 
 export default config;

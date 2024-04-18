@@ -7,6 +7,7 @@ import Heading from "@theme/Heading";
 
 import styles from "./index.module.css";
 import AndroidIDELogo from "@site/static/img/androidide.svg";
+import Head from "@docusaurus/Head";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -35,6 +36,9 @@ export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout>
+      <Head>
+        <meta name="description" content={siteConfig.tagline} />
+      </Head>
       <HomepageHeader />
       <main>
         <HomepageFeatures />
