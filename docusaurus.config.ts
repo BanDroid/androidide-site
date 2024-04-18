@@ -9,7 +9,7 @@ const app = {
   logo: "img/androidide.svg",
   organizationName: "AndroidIDEOfficial",
   projectName: "AndroidIDE",
-  url: "https://m.androidide.com",
+  url: "https://androidide-site-dev.pages.dev",
   apkRepo: "https://github.com/AndroidIDEOfficial/AndroidIDE",
 };
 

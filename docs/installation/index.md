@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+slug: /
 ---
 
 # Installation
@@ -34,18 +35,8 @@ WiFi connection is recommended for the initial setup.
 
 ## Download AndroidIDE Application
 
-- Download from [Github Releases](https://github.com/AndroidIDEOfficial/AndroidIDE/releases)
-- Download from [F-Droid](https://f-droid.org/packages/com.itsaky.androidide)
-- [Debug Version (for testers)](https://github.com/AndroidIDEOfficial/AndroidIDE/actions)
-
-  - To download the debug version, choose `Build and test` workflow, then download the artifact.
-  - Make sure to be logged in to GitHub in your browser when downloading artifacts.
-
-:::danger Attention!!!
-
-Debug version is for testing purposes.
-
-:::
+[<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.svg" alt="Get it on F-Droid" height="80" />](https://f-droid.org/packages/com.itsaky.androidide)
+[<img src="https://github.com/Kunzisoft/Github-badge/raw/main/get-it-on-github.svg" alt="Get it on F-Droid" height="80" />](https://github.com/AndroidIDEOfficial/AndroidIDE/releases)
 
 :::danger Before Updating the APK!!!
 
@@ -54,6 +45,22 @@ you try to install AndroidIDE from F-Droid, it won't be installed. Same goes for
 
 Please make sure that you download the files only from the **trusted** sources above. Installing it from unknown sources
 may pose a security risk to your device.
+
+:::
+
+<a class="button button--lg button--primary margin-vert--md" href="https://github.com/AndroidIDEOfficial/AndroidIDE/actions">
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="button-icon">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
+  </svg>
+  Debug Version
+</a>
+
+:::danger Attention!!!
+
+Debug version is for testing purposes.
+
+- To download the debug version, choose `Build and test` workflow, then download the artifact.
+- Make sure to be logged in to GitHub in your browser when downloading artifacts.
 
 :::
 
@@ -92,24 +99,21 @@ There are three methods to install AndroidIDE:
 After you have granted the permissions, you'll be navigated to `Setup tools` screen which you can use to configure the installation.
 For example, you can choose to install `JDK 21` instead of `JDK 17` which is installed by default.
 
-The below images show the SDK installation GUI and the terminal activity respectively:
-
-<div class="container">
-  <div class="row">
-    <div class="col">
-      ![](./installation-setup-tools.png)
-    </div>
-    <div class="col">
-      ![](./terminal.png)
+<details>
+  <summary>The below images show the SDK installation GUI and the terminal activity respectively:</summary>
+  <div class="container">
+    <div class="row">
+      <div class="col">![](./installation-setup-tools.png)</div>
+      <div class="col">![](./terminal.png)</div>
     </div>
   </div>
-</div>
+</details>
 
 ## Setup the Terminal
 
-- Open AndroidIDE terminal.
-- It will install bootstrap packages if required.
-- Run `pkg upgrade` to update packages to the latest version.
+1. Open AndroidIDE terminal.
+2. It will install bootstrap packages if required.
+3. Run `pkg upgrade` to update packages to the latest version.
 
 ## Build Tools Installation
 
@@ -121,9 +125,9 @@ You dont need to do this anymore with latest version of AndroidIDE.
 
 :::
 
-- Open the terminal and run `idesetup -c`.
-- Confirm the configuration and start the installation process by typing `y`.
-- After successful installation, `Downloads completed. You are ready to go!` will be printed.
+1. Open the terminal and run `idesetup -c`.
+2. Confirm the configuration and start the installation process by typing `y`.
+3. After successful installation, `Downloads completed. You are ready to go!` will be printed.
 
 ### Cheatsheet
 
